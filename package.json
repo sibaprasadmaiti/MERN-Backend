@@ -1,0 +1,31 @@
+{
+  "name": "mern-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibaprasadmaiti/MERN-Backend.git"
+  },
+  "author": "sibaprasad maiti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sibaprasadmaiti/MERN-Backend/issues"
+  },
+  "homepage": "https://github.com/sibaprasadmaiti/MERN-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.9.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "xss-clean": "^0.1.1"
+  }
+}
